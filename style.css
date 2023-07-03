@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+
+.caixa-maior {
+    margin-top: 25%;
+    background-color: hsl(216, 50%, 16%);
+    width: 385px;
+    height: 665px;
+    padding: 25px;
+    border-radius: 25px;
+    box-shadow: 0px 35px 10px 20px hsl(217, 54%, 10%),  0px 25px 20px 40px  hsl(217, 54%, 11%) ; 
+   
+}
+
+.area-img .img{
+    width: 335px;
+    height: 335px;
+    border-radius: 12px;
+    cursor: pointer;
+    position: absolute;
+    background-color:  hsl(178, 100%, 50%);
+    opacity: 0.8 ;
+}
+
+.area-img .img .view{
+  width: 55px;
+  margin: 135px 142px;
+  
+}
+
+ .area-img .equilibrium {
+    width: 335px;
+    border-radius: 8px;
+    margin-right: 25px;
+    cursor: pointer;
+   transition: 400ms ease;
+   position:relative;
+   
+} 
+
+.area-img .equilibrium:hover{
+    opacity: 0.2;
+    background-color:  hsl(178, 100%, 50%);
+}
+
+
+
+
+.title h1 {
+    color: hsl(0, 0%, 100%);
+    margin-block-start: 25px;
+    font-weight: 600;
+    font-size: 25px;
+    cursor: pointer;
+}
+.title h1:hover{
+    color:hsl(178, 100%, 50%);
+
+}
+
+.title p {
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 20px;
+    
+}
+.caixa-maior .icons {
+    margin-top: 25px;
+
+}
+.caixa-maior .icons img{
+    padding-right: 0.5rem;
+}
+.icons .icon-ethereum {
+   display: flex;
+   align-items: center;
+   justify-content: left;
+   position: absolute;
+color: hsl(178, 100%, 50%);
+font-size: 18px;
+font-weight: 400;
+}
+
+.icons .icon-clock {
+   display: flex;
+   align-items: center ;
+   justify-content: right;
+   color: hsl(215, 51%, 70%);
+   font-size: 18px;
+   font-weight: 400;
+}
+.linha{
+    
+    margin:28px 0 25px ;
+    margin-right: 25px;
+    width:100%;
+    height: 1px;
+    background:hsl(215, 51%, 70%);
+}
+.avatar{
+    color: hsl(0, 0%, 100%);
+font-size: 19px;
+display: flex;
+align-items: center;
+margin-right: 30px;
+}
+.avatar img{
+    width: 10%;
+    border-radius: 100%;
+    border: 1px solid hsl(0, 0%, 100%) ;
+    margin-right: 20px;
+}
+.avatar span{
+    color:hsl(215, 51%, 70%); 
+}
+.avatar p{
+    cursor: pointer;
+}
+.avatar p:hover{
+    color:hsl(178, 100%, 50%) ;
+}
+
+/*responsivo 375px and 1440*/
+
+@media screen and (max-width:1440px){
+    
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+}
+@media screen and (max-width:375px){
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+        width: 100%;
+    }  
+    .caixa-maior {
+        margin-top: 25%;
+        background-color: hsl(216, 50%, 16%);
+        width: 385px;
+        height: 665px;
+        padding: 25px;
+        border-radius: 25px;
+        box-shadow: 0px 35px 10px 20px hsl(217, 54%, 10%),  0px 25px 20px 40px  hsl(217, 54%, 12%) ; 
+       
+    }
+}
