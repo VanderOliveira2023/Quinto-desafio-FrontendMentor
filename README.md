@@ -19,7 +19,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Links
 
-- Live Site URL: [solution](https://nft-preview-card-desafio.netlify.app//)
+- Live Site URL: [solution to challenger](https://nft-preview-card-desafio.netlify.app//)
 
 ## My process
 
