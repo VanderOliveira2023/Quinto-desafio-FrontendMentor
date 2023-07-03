@@ -14,8 +14,8 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 - [Author](#author)
 
 ### Screenshot
-![](./images/resultado-final.jpg)
-![](./images/resultado-final2.jpg)
+![](./images/resultado-final.png)
+![](./images/resultado-final2.png)
 
 ### Links
 
@@ -30,6 +30,6 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
   ## Author to CHALLENGES
 -Desenvolvedor front-and, iniciante: "Vander Luís".
-- My profile Frontend Mentor -(@VanderOliveira2023(https://www.frontendmentor.io/profile/VanderOliveira2023)).
+- My profile Frontend Mentor -[@VanderOliveira2023](https://www.frontendmentor.io/profile/VanderOliveira2023).
 
 
